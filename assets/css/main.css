@@ -454,8 +454,9 @@ h6 {
     list-style: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     margin: 0;
+    padding: 20px;
     border-radius: 6px;
     background-color: var(--nav-mobile-background-color);
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -464,6 +465,8 @@ h6 {
     transition: 0.3s;
     z-index: 9998;
   }
+.header .btn-getstarted {
+padding: 15px;  }
 
   .navmenu a,
   .navmenu a:focus {
@@ -511,6 +514,9 @@ h6 {
     background-color: var(--accent-color);
     color: var(--contrast-color);
     transform: rotate(180deg);
+  }
+  .navmenu ul li {
+    margin-bottom: 10px; /* or more if needed */
   }
 
   .navmenu .dropdown ul {
@@ -2036,13 +2042,6 @@ section,
 
 .contact .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
 
 .who-we-are-section {
